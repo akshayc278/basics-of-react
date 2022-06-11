@@ -9,4 +9,10 @@ export default Greet
 
 //ES 6 
 
-export const Greet1 = () => <h1>Hello Akshay ES6</h1>
+export const Greet1 = (props) => { return(
+    <div>
+        <h1>Hello {props.name} ES6 with Hero {props.heroName}</h1>
+        {props.children}
+    </div>//limitation returns all in one div
+    )
+}
