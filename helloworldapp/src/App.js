@@ -4,6 +4,9 @@ import Greet, { Greet1 } from './components/Greet';
 import Welcome from './components/Welcome';
 import { Hello, Hello1 } from './components/Hello';
 import Message from './components/Message';
+import Counter from './components/Counter';
+import FunctionClick from './EventComponents/FunctionClick';
+import EventBind from './EventComponents/EventBind';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
       <Hello1></Hello1>
 
       <Message></Message>
+      <Counter></Counter>
+      <FunctionClick></FunctionClick>
+      <EventBind></EventBind>
     </div>
   );
 }
