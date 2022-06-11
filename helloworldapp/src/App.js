@@ -3,6 +3,7 @@ import './App.css';
 import Greet, { Greet1 } from './components/Greet';
 import Welcome from './components/Welcome';
 import { Hello, Hello1 } from './components/Hello';
+import Message from './components/Message';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Welcome name='akshay'></Welcome>
       <Hello></Hello>
       <Hello1></Hello1>
+
+      <Message></Message>
     </div>
   );
 }
