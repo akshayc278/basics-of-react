@@ -7,6 +7,10 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './EventComponents/FunctionClick';
 import EventBind from './EventComponents/EventBind';
+import Parent from './components/Parent';
+import ListPattern from './components/ListPattern';
+import StyleSheet from './components/StyleSheet'
+
 
 function App() {
   return (
@@ -25,6 +29,9 @@ function App() {
       <Counter></Counter>
       <FunctionClick></FunctionClick>
       <EventBind></EventBind>
+      <Parent></Parent>
+      <ListPattern></ListPattern>
+      <StyleSheet></StyleSheet>
     </div>
   );
 }
