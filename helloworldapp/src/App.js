@@ -9,7 +9,9 @@ import FunctionClick from './EventComponents/FunctionClick';
 import EventBind from './EventComponents/EventBind';
 import Parent from './components/Parent';
 import ListPattern from './components/ListPattern';
-import StyleSheet from './components/StyleSheet'
+import StyleSheet from './components/StyleSheet';
+import Form from './components/Form';
+
 
 
 function App() {
@@ -32,6 +34,7 @@ function App() {
       <Parent></Parent>
       <ListPattern></ListPattern>
       <StyleSheet></StyleSheet>
+      <Form></Form>
     </div>
   );
 }
